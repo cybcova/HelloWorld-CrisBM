@@ -20,9 +20,9 @@ El participante resolverá algoritmos directamente traducibles a lenguajes de pr
 				-Ejecutable ✅
 			-Entornos de desarrollo integrado ✅
 		-ELEMENTOS BÁSICOS DE LA PROGRAMACIÓN ESTRUCTURADA
-			-Tipos de datos primitivos
-				-Numéricos (enteros y de punto flotante o reales)
-				-Símbolos o caracteres
+			-Tipos de datos primitivos ✅
+				-Numéricos (enteros y de punto flotante o reales) ✅
+				-Símbolos o caracteres ✅
 			-Palabras reservadas
 			-Variables
 			-Constantes
