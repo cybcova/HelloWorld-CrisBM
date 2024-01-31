@@ -14,7 +14,7 @@ int main(){
 
     resultado = pow(lado, 2);
 
-    printf("Su area es: %d \n \n", resultado);
+    printf("Su area es: %d \n", resultado);
 
     printf("Ahora calcularemos el perimetro de el cuadrado\n");
     

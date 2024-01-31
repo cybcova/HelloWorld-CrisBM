@@ -14,23 +14,23 @@ int main() {
     int resta = a_resta - b_resta;
     printf("La resta de %d y %d es: %d\n", a_resta, b_resta, resta);
 
-    // Multiplicación
+    // Multiplicacion
     int a_multiplicacion = 6;
     int b_multiplicacion = 7;
     int multiplicacion = a_multiplicacion * b_multiplicacion;
-    printf("La multiplicación de %d y %d es: %d\n", a_multiplicacion, b_multiplicacion, multiplicacion);
+    printf("La multiplicacion de %d y %d es: %d\n", a_multiplicacion, b_multiplicacion, multiplicacion);
 
-    // División
+    // Division
     float a_division = 10.0;
     float b_division = 2.0;
     float division = a_division / b_division;
-    printf("La división de %f entre %f es: %f\n", a_division, b_division, division);
+    printf("La division de %f entre %f es: %f\n", a_division, b_division, division);
 
-    // Módulo
+    // Modulo
     int a_modulo = 17;
     int b_modulo = 5;
     int modulo = a_modulo % b_modulo;
-    printf("El módulo de %d entre %d es: %d\n", a_modulo, b_modulo, modulo);
+    printf("El modulo de %d entre %d es: %d\n", a_modulo, b_modulo, modulo);
 
     // Potencia
     float base_potencia = 2.0;
