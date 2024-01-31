@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(){
     
@@ -11,7 +12,7 @@ int main(){
     printf("Ingrese el lado del cuadrado:\n");
     scanf("%d",&lado);
 
-    resultado = lado*lado;
+    resultado = pow(lado, 2);
 
     printf("Su area es: %d \n \n", resultado);
 
