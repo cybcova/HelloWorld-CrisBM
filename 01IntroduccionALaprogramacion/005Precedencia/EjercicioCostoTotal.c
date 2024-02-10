@@ -19,7 +19,7 @@ int main() {
     printf("\n");
 
     printf("Calculando el costo total...\n");
-    total = costo+envio+impuesto;
+    total = costo+envio+(impuesto/100*(costo+envio));
     printf("-----------------------------\n\n");
 
     printf("Costo Total: %.2f", total);
