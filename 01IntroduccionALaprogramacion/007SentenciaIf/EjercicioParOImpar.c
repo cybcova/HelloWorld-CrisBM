@@ -34,23 +34,23 @@ int main() {
     //Numeros impares
 
     if (digito == 1){ 
-     printf("El numero es inpar");
+     printf("El numero es impar");
     }
 
     if (digito == 3){ 
-     printf("El numero es inpar");
+     printf("El numero es impar");
     }
 
     if (digito == 5){ 
-     printf("El numero es inpar");
+     printf("El numero es impar");
     }
 
     if (digito == 7){ 
-     printf("El numero es inpar");
+     printf("El numero es impar");
     }
 
     if (digito == 9){ 
-     printf("El numero es inpar");
+     printf("El numero es impar");
     }
     
 }

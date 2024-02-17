@@ -12,10 +12,11 @@ int main() {
     scanf("%f", &compra);
     printf("\n");
 
-    descuentoResiduo = (compra*descuento)/100;
-    total = compra - descuentoResiduo;
 
     if (compra >= 200){
+        
+     descuentoResiduo = (compra*descuento)/100;
+     total = compra - descuentoResiduo;
      printf("Descuento del 15 porciento aplicado: $%.2f" , descuentoResiduo);
      printf("\n");
      printf("Monto original: $%f\n\n", compra);
