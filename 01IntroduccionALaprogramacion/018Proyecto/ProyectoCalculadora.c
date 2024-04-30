@@ -109,8 +109,10 @@ int main()
                     scanf("%d", &opcion2);
                     printf("\n");
 
-                    if (opcion2 == 1)
+                    switch (opcion2)
                     {
+
+                    case 1:
                         // Cuadrado
                         printf("Ingresa el lado del cuadrado: ");
                         scanf("%f", &numero1);
@@ -118,9 +120,8 @@ int main()
                         area = numero1 * numero1;
                         printf("El perimetro del cuadrado es: %.2f\n", perimetro);
                         printf("El area del cuadrado es: %.2f\n\n", area);
-                    }
-                    else if (opcion2 == 2)
-                    {
+                        break;
+                    case 2:
                         // Triangulo
                         printf("Ingresa el lado A del triangulo: ");
                         scanf("%f", &numero1);
@@ -132,9 +133,9 @@ int main()
                         area = numero1 * numero3 / 2;
                         printf("El perimetro del triangulo es: %.2f\n", perimetro);
                         printf("El area del triangulo es: %.2f\n\n", area);
-                    }
-                    else if (opcion2 == 3)
-                    {
+                        break;
+                    case 3:
+
                         // Circulo
                         const float PI = 3.1416;
                         printf("Ingresa el radio del circulo: ");
@@ -143,8 +144,8 @@ int main()
                         area = PI * pow(numero1, 2);
                         printf("El perimetro del circulo es: %.2f\n", perimetro);
                         printf("El area del circulo es: %.2f\n\n", area);
+                        break;
                     }
-                    break;
                 // Menu operaciones Especiales
                 case 3:
                     printf("(((Operaciones Especiales)))\n");
@@ -156,8 +157,9 @@ int main()
                     scanf("%d", &opcion2);
                     printf("\n");
 
-                    if (opcion2 == 1)
+                    switch (opcion2)
                     {
+                    case 1:
                         // Sumatoria N
                         printf("Ingresa N hasta donde llegara la sumatoria: ");
                         scanf("%d", &numeroEntero);
@@ -166,9 +168,8 @@ int main()
                             resultadoEntero = resultadoEntero + i;
                         }
                         printf("La suma de los numeros de 1 a %d es: %d\n\n", numeroEntero, resultadoEntero);
-                    }
-                    else if (opcion2 == 2)
-                    {
+                        break;
+                    case 2:
                         // Factorial
                         printf("Ingresa N para calcular su factorial: ");
                         scanf("%d", &numeroEntero);
@@ -178,9 +179,8 @@ int main()
                             resultadoEntero = resultadoEntero * i;
                         }
                         printf("El factorial es: %d\n\n", resultadoEntero);
-                    }
-                    else if (opcion2 == 3)
-                    {
+                        break;
+                    case 3:
                         // Fibonacci
                         int contador = 1;
                         int presente = 0;
@@ -205,14 +205,14 @@ int main()
                             contador++;
                         }
                         printf("\n\n");
+                        break;
+                    default:
+                        printf("Opcion Invalida");
+                        break;
                     }
-                    break;
-                default:
-                    printf("Opcion Invalida");
-                    break;
                 }
+                printf("Saliendo del programa...");
             }
-            printf("Saliendo del programa...");
         }
         else
         {
@@ -221,6 +221,5 @@ int main()
         }
 
     } while (intentos > 0 && !(contrasenaLectura == contrasenaUsuario));
-
     return 0;
 }
