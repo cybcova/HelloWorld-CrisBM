@@ -23,42 +23,42 @@ El participante resolverá algoritmos directamente traducibles a lenguajes de pr
 			-Tipos de datos primitivos ✅
 				-Numéricos (enteros y de punto flotante o reales) ✅
 				-Símbolos o caracteres ✅
-			-Palabras reservadas
-			-Variables
-			-Constantes
-			-Expresiones
-				-Operadores
-					-Operadores unarios
-					-Operadores binarios
-					-Operadores especiales
-			-Jerarquía de operadores
-				-Precedencia de operadores
-				-Reglas de evaluación de expresiones
-			-Operadores aritméticos
-				-Suma
-				-Resta
-				-Multiplicación
-				-División
-				-Módulo
-				-Potencia
-			-Operadores relacionales
-				-Mayor que
-				-Menor que
-				-Mayor o igual que
-				-Menor o igual que
-				-Igual a
-				-Diferente de
-			-Operadores lógicos o booleanos (and, or, not, xor)
-				-Tablas de verdad
-		-CONTROL DE FLUJO DE SENTENCIAS
-			-Sentencias incondicionales
-				-Asignación
-				-Lectura
-				-Escritura
-			-Sentencias condicionales
-				-Selección (if, if-else)
-				-Ciclos (while, do-while, for)
-				-Selección múltiple (switch o select - case)
+			-Palabras reservadas ✅
+			-Variables ✅
+			-Constantes ✅
+			-Expresiones ✅
+				-Operadores ✅
+					-Operadores unarios ✅
+					-Operadores binarios ✅
+					-Operadores especiales ✅
+			-Jerarquía de operadores ✅
+				-Precedencia de operadores ✅
+				-Reglas de evaluación de expresiones ✅
+			-Operadores aritméticos ✅
+				-Suma ✅
+				-Resta ✅
+				-Multiplicación ✅
+				-División ✅
+				-Módulo ✅
+				-Potencia ✅
+			-Operadores relacionales ✅
+				-Mayor que ✅
+				-Menor que ✅
+				-Mayor o igual que ✅
+				-Menor o igual que ✅
+				-Igual a ✅
+				-Diferente de ✅
+			-Operadores lógicos o booleanos (and, or, not, xor) ✅
+				-Tablas de verdad ✅
+		-CONTROL DE FLUJO DE SENTENCIAS ✅
+			-Sentencias incondicionales ✅
+				-Asignación ✅
+				-Lectura ✅
+				-Escritura ✅
+			-Sentencias condicionales ✅
+				-Selección (if, if-else) ✅
+				-Ciclos (while, do-while, for) ✅
+				-Selección múltiple (switch o select - case) ✅
 	-PROGRAMACIÓN ESTRUCTURADA
 		-ARREGLOS DE DATOS
 			-Definición
